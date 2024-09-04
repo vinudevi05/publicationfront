@@ -1,0 +1,28 @@
+.box {
+    background-color: red; /* Red background color for the box */
+    padding: 20px;         /* Add padding for spacing inside the box */
+    border-radius: 5px;   /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 600px;      /* Maximum width of the box */
+    margin: 20px auto 0;  /* Center the box horizontally and add top margin */
+  }
+  
+  .form-row {
+    display: flex;        /* Use flexbox to align items horizontally */
+    gap: 1rem;            /* Add some space between the items */
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; /* Add space below each form group */
+  }
+  
+  .form-label {
+    display: block;      /* Ensure labels are block elements */
+    margin-bottom: 0.5rem; /* Space between label and input */
+  }
+  
+  .form-select,
+  .form-control {
+    width: 100%;         /* Ensure inputs take full width of their container */
+  }
+  
